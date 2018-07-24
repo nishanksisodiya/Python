@@ -1,0 +1,6 @@
+this is a regular file
+FROM: nishanksisodiya@gmail.com
+TO: prateekajain@outlook.com
+SUBJECT: Hello World!
+BODY: Hey! This is Nishank here glad to meet you.
+DATE: 23/07/2018 14:41:23
