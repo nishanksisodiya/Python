@@ -1,4 +1,4 @@
-this is a regular file
+This is a regular file
 FROM: nishanksisodiya@gmail.com
 TO: prateekajain@outlook.com
 SUBJECT: Hello World!
