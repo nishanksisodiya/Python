@@ -1,21 +1,7 @@
-import tkinter as tk
-win=tk.Tk()
-win.geometry("1920x1080")
-menu=tk.Menu(win)
-win.config(menu=menu)
-filemenu=tk.Menu(menu)
-helpmenu=tk.Menu(menu)
-menu.add_cascade(label="File",menu=filemenu)
-filemenu.add_command(label="new")
-filemenu.add_command(label="open")
-menu.add_cascade(label="Help",menu=helpmenu)
-helpmenu.add_command(label="About")
-helpmenu.add_command(label="Quit",command=win.quit)
-w=tk.Canvas(win, width=1920,height=1080,bg="#000000")
-w.pack(fill='both', expand=True)
-w.create_text(960,100,text="TIC TAC TOE",font=("THE MAPLE ORIGINS", 100),fill="#88ff00")
-w.create_line(900,400,900,680,fill="#88ff00",width=5)
-w.create_line(1020,400,1020,680,fill="#88ff00",width=5)
-w.create_line(800,485,1120,485,fill="#88ff00",width=5)
-w.create_line(800,585,1120,585,fill="#88ff00",width=5)
-win.mainloop()
+import tictactoeUI as ui
+
+def main():
+    ui.menu()
+    ui.ui()
+
+main()
