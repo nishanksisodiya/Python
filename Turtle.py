@@ -18,53 +18,52 @@ for step in range(15):
   left(90)
   forward(20)
 
-ada = Turtle()
-ada.color('red')
-ada.shape('turtle')
+t1 = Turtle()
+t1.color('red')
+t1.shape('turtle')
 
-ada.penup()
-ada.goto(-160, 100)
-ada.pendown()
+t1.penup()
+t1.goto(-160, 100)
+t1.pendown()
 
 for turn in range(10):
-  ada.right(36)
+  t1.right(36)
 
-bob = Turtle()
-bob.color('blue')
-bob.shape('turtle')
+t2 = Turtle()
+t2.color('blue')
+t2.shape('turtle')
 
-bob.penup()
-bob.goto(-160, 70)
-bob.pendown()
+t2.penup()
+t2.goto(-160, 70)
+t2.pendown()
 
 for turn in range(72):
-  bob.left(5)
+  t2.left(5)
 
-ivy = Turtle()
-ivy.shape('turtle')
-ivy.color('green')
+t3 = Turtle()
+t3.shape('turtle')
+t3.color('green')
 
-ivy.penup()
-ivy.goto(-160, 40)
-ivy.pendown()
+t3.penup()
+t3.goto(-160, 40)
+t3.pendown()
 
 for turn in range(60):
-  ivy.right(6)
+  t3.right(6)
 
-jim = Turtle()
-jim.shape('turtle')
-jim.color('orange')
+t4 = Turtle()
+t4.shape('turtle')
+t4.color('orange')
 
-jim.penup()
-jim.goto(-160, 10)
-jim.pendown()
+t4.penup()
+t4.goto(-160, 10)
+t4.pendown()
 
 for turn in range(30):
-  jim.left(12)
+  t4.left(12)
 
 for turn in range(100):
-  ada.forward(randint(1,5))
-  bob.forward(randint(1,5))
-  ivy.forward(randint(1,5))
-  jim.forward(randint(1,5))
-  
+  t1.forward(randint(1,5))
+  t2.forward(randint(1,5))
+  t3.forward(randint(1,5))
+  t4.forward(randint(1,5))
