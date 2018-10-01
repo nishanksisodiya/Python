@@ -1,0 +1,12 @@
+import tkinter as tk
+win=tk.Tk()
+win.geometry('1920x1080')
+win.title("Counting seconds")
+# frame1 = tk.Frame(win, width=1280, height=720, background="white")
+# frame1.pack(fill=None, expand=False)
+w=tk.Canvas(win, width=1920,height=1080)
+w.pack()
+w.create_line(0,0,1920,1080,fill='green',width=10)
+# button=tk.Button(win,background="cyan", activeforeground="red", text="stop", command=win.destroy)
+# button.pack()
+win.mainloop()
